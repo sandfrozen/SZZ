@@ -14,9 +14,13 @@
 //= require turbolinks
 
 //= require jquery
-//= require jquery_ujs
-
-//= require tether
+//= require popper
 //= require bootstrap
 
 //= require_tree .
+
+$("#menu-toggle").click( function(e){
+	alert("clicked");
+	e.preventDefault();
+	$("#wrapper").toggleClass("menuDisplayed");
+});

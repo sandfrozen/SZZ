@@ -58,5 +58,8 @@ source 'https://rails-assets.org' do
 end
 
 # My Gems
+# gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+gem "font-ionicons-rails"
