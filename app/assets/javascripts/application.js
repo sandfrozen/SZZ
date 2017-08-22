@@ -18,9 +18,3 @@
 //= require bootstrap
 
 //= require_tree .
-
-$("#menu-toggle").click( function(e){
-	alert("clicked");
-	e.preventDefault();
-	$("#wrapper").toggleClass("menuDisplayed");
-});

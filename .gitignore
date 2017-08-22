@@ -21,3 +21,9 @@
 /yarn-error.log
 
 .byebug_history
+
+Gemfile.lock
+
+/public/assets/*.gz
+/public/assets/*.css
+/public/assets/*.js
