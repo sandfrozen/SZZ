@@ -11,11 +11,10 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require turbolinks
 
-//= require jquery
+//= require jquery3
+//= require jquery.cookie
 //= require popper
 //= require bootstrap
-//= require tether
 
 //= require_tree .
